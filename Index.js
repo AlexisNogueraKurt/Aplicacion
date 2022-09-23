@@ -1,4 +1,5 @@
 const express = require('express')
+const path = require('path')
 
 //crea la aplicacion 
 const Index = express()
@@ -15,4 +16,5 @@ Index.get('/', (req, res) => {
 
 Index.set('views','./views')
 Index.set('view engine','ejs')
+Index.use('/public', express.static(path.join(__dirname,'public')))
 Index.listen(port)

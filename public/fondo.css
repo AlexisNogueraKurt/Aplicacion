@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../public/57e6d0424950a914f6da8c7dda79367c1138dee557556c48702a73dd9349c45cbb_640.jpg) center top;
+    background-size: cover;
+}
+.a{
+ height: 5rem ;
+ width: 5rem;
+}
